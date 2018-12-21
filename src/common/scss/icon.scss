@@ -1,0 +1,53 @@
+$article_author: url(../../common/fonts/article_author.svg) repeat;
+$article_label: url(../../common/fonts/article_label.svg) repeat;
+$article_time: url(../../common/fonts/article_time.svg) repeat;
+$search: url(../../common/fonts/search.svg) repeat;
+$article: url(../../common/fonts/article.svg) repeat;
+$menu: url(../../common/fonts/menu.svg) repeat;
+$sortIcon: url(../../common/fonts/sort.svg) repeat;
+
+.article_author {
+    width:24px;
+    height: 24px;
+    background: $article_author;
+    background-size: 100% 100%;
+}
+.article_lable {
+    width:24px;
+    height: 24px;
+    background: $article_label;
+    background-size: 100% 100%;
+}
+.article_time {
+    width:24px;
+    height: 24px;
+    background: $article_time;
+    background-size: 100% 100%;
+}
+.article_search {
+    width:24px;
+    height: 24px;
+    background: $search;
+    background-size: 100% 100%;    
+}
+.article_www {
+    width:24px;
+    height: 24px;
+    background: $article;
+    background-size: 100% 100%;    
+}
+
+.article_menu {
+    width:24px;
+    height: 24px;
+    background: $menu;
+    background-size: 100% 100%; 
+}
+
+.sortIcon {
+    width:22px;
+    height: 22px;
+    background: $sortIcon;
+    background-size: 100% 100%;
+    cursor: pointer;
+}

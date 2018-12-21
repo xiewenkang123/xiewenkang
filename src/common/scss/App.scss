@@ -1,0 +1,85 @@
+* {list-style: none}
+$color-green: #01814a;
+$color1: #f8f8f8;
+$font-size:10px;
+$color-green1: #006030;
+$color-white: white;
+.navbar-inverse {
+    background-color: $color-green;
+    border-color: $color-green;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: $color-green;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    border-color: $color-green;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: $color-green;
+}
+.navbar-inverse .navbar-brand,.navbar-inverse .navbar-nav>li>a
+ {
+    color: $color-white;
+}
+.navbar-inverse .navbar-nav>li {
+  background-color: $color-green;
+  transition:background 1s;
+  }
+.navbar-inverse .navbar-nav>li:hover {
+  background:$color-green1;
+}
+.content {
+  margin-top:$font-size * 8;
+}
+body {
+    background:$color1;
+}
+.b-logo-word {
+  font-size: 16px;
+}
+.Footer {
+  footer {
+    // background:#01814a;
+    border-top: 1px solid #01814a;
+    padding:10px;
+    width: 100%;
+    margin-top:68px;
+    text-align: center;
+    color: #3c3c3c;
+    a {
+      color: #3c3c3c;
+    }
+  }
+}
+.background_color {
+  border: 1px solid rgb(1, 129, 74);
+  background: rgb(1, 129, 74);
+  transition: background 1s;
+  width: 100%;
+}
+.background_color:hover {
+  background: rgb(0, 96, 48);
+}
+.Login {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 14%;
+}
+.el-form {
+  width: 400px;
+  padding: 20px 60px 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  h3 {
+    display: flex;
+    justify-content: center;
+    margin-left: 16%;
+    position: relative;
+    i {
+      position: relative;
+      top: 0px;
+      margin-right: 4px;
+    }
+  }
+}
